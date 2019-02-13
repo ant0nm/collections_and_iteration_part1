@@ -149,6 +149,37 @@ print()
 print("Exercise #6:")
 print("---------------------------------")
 print('*****')
+dict_of_movies = {
+1999: ["The Matrix", "Star Wars: Episode 1", "The Mummy"],
+2009: ["Avatar", "Sherlock Holmes", "Fast & Furious"],
+2019: ["How to Train Your Dragon 3", "Toy Story 4", "Aladdin"]
+}
+print(dict_of_movies)
+print('*****')
+phone_buttons = [[1,2,3],[4,5,6],[7,8,9],['*',0,'#']]
+print(phone_buttons)
+print('*****')
+countries_list = [
+{'name': 'France', 'continent': 'Europe', 'isIsland': False},
+{'name': 'Nigeria', 'continent': 'Africa', 'isIsland': False},
+{'name': 'Brunei', 'continent': 'Asia', 'isIsland': True}
+]
+print(countries_list)
+print('*****')
+print("---------------------------------")
 
+# exercise 7
+print()
+print("Exercise #7:")
+print("---------------------------------")
+print('*****')
+print('*****')
+print("---------------------------------")
+
+# exercise 8
+print()
+print("Exercise #8:")
+print("---------------------------------")
+print('*****')
 print('*****')
 print("---------------------------------")
