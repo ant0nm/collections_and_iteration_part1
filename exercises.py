@@ -25,6 +25,8 @@ cities = {
 ages_dict = {"Mia": 23, "Sasha": 17, "Nastja": 17, "Natalya": 49}
 
 # exercise 1
+print("Exercise #1:")
+print("---------------------------------")
 print(coin_flips)
 print(fav_colours[0])
 # sort ages_list in ascending order
@@ -35,3 +37,18 @@ ages_list.append(0)
 print(ages_list)
 # print when "The Fifth Element" was released
 print(fav_movies["The Fifth Element"])
+print("---------------------------------")
+
+# exercise 2
+print()
+print("Exercise #2:")
+print("---------------------------------")
+print(fav_colours[len(fav_colours)-1])
+cities["Abuja"] = 780000
+print(cities)
+reversed_coin_flips = list(reversed(coin_flips))
+print(reversed_coin_flips)
+print("The population of Moscow is {:,}".format(cities["Moscow"]))
+for artist in fav_artists:
+    print("I think {} is AWESOME".format(artist))
+print("---------------------------------")
