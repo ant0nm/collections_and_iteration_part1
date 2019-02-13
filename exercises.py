@@ -3,7 +3,7 @@
 fav_colours = ["green", "teal", "gray", "black"]
 ages_list = [25, 23, 17, 17, 49]
 # if heads -> True, tails -> False
-coin_flips = [True, True, True, False, True]
+coin_flips = ["Heads", "Heads", "Heads", "Tails", "Heads"]
 fav_artists = ["James Blake", "Post Malone", "Joji"]
 
 # my dictionaries
@@ -23,3 +23,15 @@ cities = {
 "Lisbon": 500000
 }
 ages_dict = {"Mia": 23, "Sasha": 17, "Nastja": 17, "Natalya": 49}
+
+# exercise 1
+print(coin_flips)
+print(fav_colours[0])
+# sort ages_list in ascending order
+sorted_ages_list = sorted(ages_list)
+print(sorted_ages_list)
+# add a baby (0 years old) to the ages_list
+ages_list.append(0)
+print(ages_list)
+# print when "The Fifth Element" was released
+print(fav_movies["The Fifth Element"])
