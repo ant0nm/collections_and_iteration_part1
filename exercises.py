@@ -216,6 +216,14 @@ print()
 print("Exercise #8:")
 print("---------------------------------")
 print('*****')
-
+my_expenses_2017 = [100, 55, 9.85, 15.70, 3.99, 52.99, 45, 147, 10.19]
+my_expenses_2018 = [67, 42, 7.89, 23.43, 4.99, 546.99, 13.87, 132, 9.13]
+def sum_expenses(expenses):
+    sum = 0
+    for expense in expenses:
+        sum += expense
+    return sum
+print("My expenses in 2017:\n{:.2f}".format(sum_expenses(my_expenses_2017)))
+print("My expenses in 2018:\n{:.2f}".format(sum_expenses(my_expenses_2018)))
 print('*****')
 print("---------------------------------")
