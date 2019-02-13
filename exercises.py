@@ -173,6 +173,41 @@ print()
 print("Exercise #7:")
 print("---------------------------------")
 print('*****')
+for i in range(0,20):
+    print("I will not skateboard in the halls")
+print('*****')
+message_list = []
+for i in range(0,20):
+    message_list.append("I will not skateboard in the halls")
+print(message_list)
+print(len(message_list))
+print('*****')
+number_list = []
+for n in range(1,51):
+    number_list.append(n)
+print(number_list)
+print(len(number_list))
+print('*****')
+sum = 0
+for num in number_list:
+    sum = sum + num
+print("The total sum of numbers in the number_list is {}".format(sum))
+print('*****')
+number_list_2 = []
+for k in range(1,51):
+    for i in range(0,3):
+        number_list_2.append(k)
+print(number_list_2)
+print(len(number_list_2))
+print('*****')
+land_countries = []
+for country in countries_list:
+    if not country['isIsland']:
+        land_countries.append(country)
+print("All countries:")
+print(countries_list)
+print("Land Countries:")
+print(land_countries)
 print('*****')
 print("---------------------------------")
 
@@ -181,5 +216,6 @@ print()
 print("Exercise #8:")
 print("---------------------------------")
 print('*****')
+
 print('*****')
 print("---------------------------------")
